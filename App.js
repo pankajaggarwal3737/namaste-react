@@ -1,3 +1,6 @@
+import React from "react";
+import ReactDOM from "react-dom/client";
+
 /*
 
         <div id="parent">
@@ -35,4 +38,4 @@ console.log(heading); // just an object as of now.
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
-root.render(parent); // heading object now goes and becomes a tag (h1)
+root.render(heading); // heading object now goes and becomes a tag (h1)
